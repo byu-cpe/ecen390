@@ -62,6 +62,12 @@ directory) similar to what you would do with GitHub. The main difference
 here is that your files are hosted on CAEDM servers instead of GitHub
 servers.
 
+{: .note }
+When initializing (or cloning) a bare git repository for your group,
+remember to use the `--bare` and `--shared` options. Without the
+`--shared` option, your groupmate will not have permission to push to
+the repository.
+
 <!--
 https://www.reddit.com/r/git/comments/kx9xtx/how_to_setup_a_remote_git_repository_on_a_local/?rdt=42223
 https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Quickly-create-a-git-bare-repo-with-init-or-clone
