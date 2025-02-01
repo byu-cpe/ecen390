@@ -92,7 +92,7 @@ In this section, you will find instructions on:
 ### Starting Code Repository
 
 To complete the work for this course, you are provided a repository of
-starting code, available here: <https://github.com/byu-cpe/ecen390>.
+starting code, available here: <https://github.com/byu-cpe/ecen390_student>.
 
 You can clone this code from GitHub into a sub-directory called
 _ecen390_ in your home directory using the following command:
