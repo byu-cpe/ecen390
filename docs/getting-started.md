@@ -52,7 +52,11 @@ password.
 
 [Create a CAEDM Group](https://caedm.et.byu.edu/cms/addgroup.php)
 
-<!-- Indicate what a typical path looks like to the group space. -->
+Once the group has been created, a directory will show up in your home
+directory after you login. For example, if the new group is called
+lasertag, the directory will show up as `~/groups/lasertag`. You can
+check to see if you are a member of a created group by typing `groups`
+on the command line.
 
 If you want to have revision control of your source code in the group
 file space, you can create a _bare_ git repository in the shared space.
@@ -60,25 +64,8 @@ Then you will be able to check-in and check-out files with `git` from
 the shared file space to your personal file space (i.e., J Drive, home
 directory) similar to what you would do with GitHub. The main difference
 here is that your files are hosted on CAEDM servers instead of GitHub
-servers.
-
-{: .note }
-When initializing (or cloning) a bare git repository for your group,
-remember to use the `--bare` and `--shared` options. Without the
-`--shared` option, your groupmate will not have permission to push to
-the repository.
-
-<!--
-https://www.reddit.com/r/git/comments/kx9xtx/how_to_setup_a_remote_git_repository_on_a_local/?rdt=42223
-https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Quickly-create-a-git-bare-repo-with-init-or-clone
-https://saraford.net/2017/03/03/how-to-create-your-own-local-git-remote-repo-thats-not-hosted-on-a-git-server-bare-option-062/
-https://git-scm.com/book/en/v2/Git-on-the-Server-Getting-Git-on-a-Server --shared option
- -->
-
-<!-- The following source gives instructions on how to setup
-a _bare_ git repository.
-
-[]() -->
+servers. Follow [these instructions]({% link docs/git.md %}) for details
+on setting up a group-accessible, bare repository.
 
 ## Lab Environment
 In this section, you will find instructions on:
@@ -94,10 +81,13 @@ In this section, you will find instructions on:
 To complete the work for this course, you are provided a repository of
 starting code, available here: <https://github.com/byu-cpe/ecen390_student>.
 
-You can clone this code from GitHub into a sub-directory called
+Follow the instructions on [Git Repositories]({% link docs/git.md %})
+to download this starting code and setup a project directory called `ecen390`.
+
+<!-- You can clone this code from GitHub into a sub-directory called
 _ecen390_ in your home directory using the following command:
 
-`git clone https://github.com/byu-cpe/ecen390_student ~/ecen390`
+`git clone https://github.com/byu-cpe/ecen390_student ~/ecen390` -->
 
 ### Editing Source Code
 
